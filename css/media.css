@@ -1,0 +1,65 @@
+@media screen and ( max-width : 800px )  {
+    .be4::after{
+display: none; 
+
+    }
+.helooo{
+    position: static !important;
+    
+}
+.forma{
+    width: 90% !important;
+}
+.ph3{
+    width: 100% !important;
+}
+
+#OurPortfolio ul    {
+width: 80% !important;
+}
+.clintpos div > * {
+    position: static !important;
+
+}
+
+}
+
+    
+@media screen and ( min-width : 601px ) and (max-width: 966px) {
+    .forma{
+        width: 70% !important;
+    }
+    .ph3{
+        width: 100% !important;
+    }
+    .clintpos div > * {
+        position: static !important;
+        
+    
+    }
+
+} 
+@media screen and ( min-width : 966px ) and (max-width: 1400px) {
+    .forma{
+        width: 70% !important;
+    }
+    .ph3{
+        width: 100% !important;
+    }
+    .be4::after { 
+        top: -133%;
+    }
+    .be4 img{
+        left: 9% !important;
+
+    }
+    
+} 
+
+@media screen and ( min-width : 1400px ) {
+    .be4 img{
+        left: 25% !important;
+
+    }
+}
+
